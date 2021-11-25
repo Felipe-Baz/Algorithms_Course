@@ -11,7 +11,7 @@ if __name__ == '__main__':
     bubble_sort(lista)
     end = timeit.timeit()
     print(f'Response of Bubble Sort: {lista}')
-    print(f'elapsed time of Bubble Sort: {end - start}')
+    print(f'Elapsed time of Bubble Sort: {end - start}')
     print("-+-"*30)
 
     lista = [2,34,123,4534,7647574,1,2,-1,2.4]
@@ -19,5 +19,5 @@ if __name__ == '__main__':
     merge_sort_response = merge_sort(lista)
     end = timeit.timeit()
     print(f'Response of Merge Sort: {lista}')
-    print(f'elapsed time of Merge Sort: {end - start}')
+    print(f'Elapsed time of Merge Sort: {end - start}')
     print("-+-"*30)
