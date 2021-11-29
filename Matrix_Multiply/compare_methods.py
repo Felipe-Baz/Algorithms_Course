@@ -1,6 +1,5 @@
 import timeit
-
-from Matrix_Multiply.Matrix_Multiply_function import matrix_multiply
+from Matrix_Multiply_function import matrix_multiply
 
 
 
